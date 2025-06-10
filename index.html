@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Fundamentos layout</h1>
+    </header>
+
+    <main class="container">
+        <section class="topic-card">
+            <h2>Modelo de Cajas</h2>
+            <p>Cada elemento HTML es una caja con contenido, padding, borde y margen.</p>
+            <div class="example-box box-model">
+                <div class="inner-box">Contenido</div>
+            </div>
+        </section>
+
+        <section class="topic-card">
+            <h2>Layout con Flexbox</h2>
+            <p>Flexbox permite crear layouts flexibles y responsivos.</p>
+            <div class="flex-example">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
+            </div>
+        </section>
+
+        <section class="topic-card full-width">
+            <h2>Atributos del Modelo de Cajas</h2>
+            <p>El modelo de cajas de CSS está compuesto por:</p>
+            <ul class="attributes-list">
+                <li><strong>margin:</strong> Espacio exterior alrededor del elemento</li>
+                <li><strong>border:</strong> Borde que rodea el padding y contenido</li>
+                <li><strong>padding:</strong> Espacio interior entre el borde y el contenido</li>
+                <li><strong>content:</strong> El contenido real del elemento</li>
+            </ul>
+        </section>
+
+        <section class="topic-card full-width">
+            <h2>Propiedades Principales de Flexbox</h2>
+            <p>Las propiedades más importantes de Flexbox son:</p>
+            <ul class="attributes-list">
+                <li><strong>justify-content:</strong> Alinea elementos en el eje principal (center, space-between,
+                    space-around)
+                </li>
+                <li><strong>align-items:</strong> Alinea elementos en el eje transversal (center, flex-start, flex-end)
+                </li>
+                <li><strong>flex-wrap:</strong> Controla si los elementos pueden saltar a una nueva línea (wrap, nowrap)
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+
+</html>
